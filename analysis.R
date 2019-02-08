@@ -5,6 +5,8 @@ library("lubridate")
 library("tidyr")
 library("ggmap")
 install.packages("ggmap")
+install.packages("ggplot2")
+install.packages("lubridate")
 # Load in your data
 evictions <- read.csv("data/Eviction_Notices.csv", stringsAsFactors = FALSE)
   
