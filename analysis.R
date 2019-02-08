@@ -60,5 +60,6 @@ base_plot <- qmplot(
 evictions_plot <- base_plot +
   geom_point(mapping = aes(x = long, y = lat), color = "red", alpha = .3) +
   labs(title = "Evictions in San Francisco, 2017") +
-  theme(plot.margin = margin(.3, 0, 0, 0, "cm"))
+  theme(plot.margin = margin(.3, 0, 0, 0, "cm") )
+
 
